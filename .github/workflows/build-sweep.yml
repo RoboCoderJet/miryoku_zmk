@@ -1,7 +1,7 @@
 # Copyright 2024 Robo Coder Jet
 # 
 
-name: 'Build Swoop'
+name: 'Build Sweep'
 on: workflow_dispatch
 jobs:
   build:
@@ -9,7 +9,7 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
-      shield: '["swoop_left","swoop_right"]'
+      shield: '["cradio_left","cradio_right"]'
       nav: '["invertedt"]'
       clipboard: '["win"]'
       layers: '["flip"]'
