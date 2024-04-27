@@ -1,0 +1,7 @@
+# Copyright 2024 RoboCoderJet
+# SPDX-License-Identifier: MIT
+
+outboard_repository=RoboCoderJet/zmk-swoop
+outboard_ref=master
+outboard_from=config/boards/shields/swoop
+outboard_to=boards/shields/swoop
