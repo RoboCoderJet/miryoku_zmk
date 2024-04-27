@@ -1,0 +1,15 @@
+# Copyright 2024 Robo Coder Jet
+# 
+
+name: 'Build Swoop'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano_v2"]'
+      shield: '["swoop_left","swoop_right"]'
+      nav: '["invertedt"]'
+      clipboard: '["win"]'
+      layers: '["flip"]'
